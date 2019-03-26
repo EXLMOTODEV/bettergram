@@ -8,7 +8,7 @@ environment:
    - BUILD_VERSION:
 
 configuration:
-  - Debug
+  - Release
 
 matrix:
   fast_finish: true
@@ -20,5 +20,5 @@ build:
   project: Telegram\Telegram.sln
 
 artifacts:
-  - path: out\Debug\Bettergram.exe
+  - path: out\Release\Bettergram.exe
     name: Bettergram.exe
