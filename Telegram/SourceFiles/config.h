@@ -182,13 +182,13 @@ w/CVnbwQOw0g5GBwwFV3r0uTTvy44xx8XXxk+Qknu4eBCsmrAFNnAgMBAAE=\n\
 ";
 #endif
 
-#if defined TDESKTOP_API_ID && defined TDESKTOP_API_HASH
+#if 1
 
 #define TDESKTOP_API_HASH_TO_STRING_HELPER(V) #V
 #define TDESKTOP_API_HASH_TO_STRING(V) TDESKTOP_API_HASH_TO_STRING_HELPER(V)
 
-constexpr auto ApiId = TDESKTOP_API_ID;
-constexpr auto ApiHash = TDESKTOP_API_HASH_TO_STRING(TDESKTOP_API_HASH);
+constexpr auto ApiId = 118549;
+constexpr auto ApiHash = "c36eef50d68683e5f27eec051a644c0e";
 
 #undef TDESKTOP_API_HASH_TO_STRING
 #undef TDESKTOP_API_HASH_TO_STRING_HELPER
